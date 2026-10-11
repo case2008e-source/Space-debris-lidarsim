@@ -10,7 +10,7 @@ Original file is located at
 # Commented out IPython magic to ensure Python compatibility.
 !pip install -q ipympl
 
-# 1. TELL COLAB TO ENABLE INTERACTIVE WIDGET MANAGEMENT
+# 1. ENABLE INTERACTIVE WIDGET MANAGEMENT 
 from google.colab import output
 output.enable_custom_widget_manager()
 
@@ -21,7 +21,7 @@ import random
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
-# 3. SETUP THE ENVIRONMENT
+# 3. ENVIRONMENT SETUP
 debris_x = 0.0
 debris_y = 10.0
 debris_z = 5.0
@@ -37,7 +37,7 @@ z_history = []
 
 print("--- STARTING ACTIVE DEBRIS DETECTION SIMULATION ---")
 
-# 4. THE SIMULATION LOOP
+# 4.  Debris simulation 
 for second in range(1, 11):
     debris_x = debris_x + (velocity_x * dt)
     debris_y = debris_y + (velocity_y * dt)
@@ -68,7 +68,7 @@ for second in range(1, 11):
 
 print("\nSimulation complete. Generating Interactive 3D Trajectory Visualization...")
 
-# 5. GENERATE THE INTERACTIVE 3D PLOT
+# 5. 3D PLOT
 fig = plt.figure(figsize=(9, 6))
 ax = fig.add_subplot(111, projection='3d')
 
