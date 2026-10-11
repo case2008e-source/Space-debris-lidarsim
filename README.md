@@ -75,8 +75,8 @@ Time: 3s | True Pos: (4.50, 11.50, 8.00)m
 
 ---
 
-## 🎓 Academic Application Context
-This project was conceptualized and coded independently as a portfolio capstone to support university undergraduate engineering transfer applications. It serves as tangible evidence of:
+## Application Context
+This project was conceptualized and coded independently as a project to investigate the effectiveness of navigation in space. It serves as tangible evidence of:
 - Mastery of array-based data tracking using sequential iterations.
 - Practical translation of multi-variable physics principles into reliable software logic.
 - Understanding of data representation and the extraction of visual insights from numeric telemetry.
