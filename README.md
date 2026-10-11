@@ -2,7 +2,7 @@
 A 3D Python simulation mapping space debris trajectories and classifying collision hazards using LiDAR telemetry data.
 # Autonomous 3D Space Debris Detection & Hazard Classification Simulator
 
-An engineering-grade Python simulation that models a stationary orbital LiDAR tracking station monitoring, evaluating, and classifying the kinematic trajectories of space debris in a 3D coordinate system. 
+An engineering-grade Python simulation that models a stationary orbital LiDAR tracking station monitoring and classifying the kinematic trajectories of space debris in a 3D coordinate system. 
 
 This project demonstrates the practical application of 3D kinematics, algorithmic threat classification, stochastically generated sensor noise, and dynamic 3D data visualization.
 
