@@ -8,7 +8,7 @@ This project demonstrates the practical application of 3D kinematics, algorithmi
 
 ---
 
-## 🚀 System Features
+##  System Features
 - **3D Trajectory Kinematics:** Simulates true physical vector positions (X, Y, Z) using decoupled multi-axis velocities over discrete time increments (Δ t).
 - **Stochastic Noise Generation:** Models real-world hardware imperfections by injecting a uniform random distribution of signal noise (± 0.3m) into distance calculations.
 - **Autonomous Threat Assessment:** Implements a real-time cascading threshold logic network to automatically classify approaching objects into distinct danger matrices (`SAFE`, `WARNING`, `CRITICAL`).
@@ -16,7 +16,7 @@ This project demonstrates the practical application of 3D kinematics, algorithmi
 
 ---
 
-## 📊 Mathematical & Architectural Overview
+##  Mathematical & Architectural Overview
 
 The tracking station is positioned symmetrically at the coordinate origin (0, 0, 0). 
 
@@ -36,7 +36,7 @@ To mirror raw sensor telemetry, an unpredictable noise coefficient (ε) is appli
 
 ---
 
-## 🛠️ Project Structure & Execution
+##  Project Structure & Execution
 
 ### Prerequisites
 The core simulation runs natively on standard Python configurations. The interactive visual tracking dashboard requires `matplotlib` and `ipympl` (for cloud-based widget architectures like Google Colab).
@@ -54,22 +54,22 @@ The full executable file handles everything inside a unified execution loop:
 
 ---
 
-## 📈 System Output Display
+##  System Output Display
 When compiled, the script tracks object vectors inside the command line environment before launching an interactive 3D spatial mapping window:
 
 ```text
 --- STARTING ACTIVE DEBRIS DETECTION SIMULATION ---
 Time: 1s | True Pos: (1.50, 10.50, 6.00)m
        | LiDAR Measured Distance: 12.14m (Error: 0.05m)
-       | Threat Assessment: 🚨 CRITICAL: Immediate Collision Hazard!
+       | Threat Assessment:  CRITICAL: Immediate Collision Hazard!
 ------------------------------------------------------------
 Time: 2s | True Pos: (3.00, 11.00, 7.00)m
        | LiDAR Measured Distance: 13.56m (Error: -0.19m)
-       | Threat Assessment: 🚨 CRITICAL: Immediate Collision Hazard!
+       | Threat Assessment:  CRITICAL: Immediate Collision Hazard!
 ------------------------------------------------------------
 Time: 3s | True Pos: (4.50, 11.50, 8.00)m
        | LiDAR Measured Distance: 14.81m (Error: 0.12m)
-       | Threat Assessment: ⚠️ WARNING: Object entering proximity vector.
+       | Threat Assessment:  WARNING: Object entering proximity vector.
 ...
 ```
 
